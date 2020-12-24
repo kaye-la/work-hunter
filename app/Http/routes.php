@@ -57,6 +57,8 @@ Route::get('lists/create', array('as'=>'createVacancy','uses' => 'ListsControlle
 Route::get('lists/', array('as'=>'allVacancies','uses' => 'ListsController@index')); // Route to tajikistan Page
 
 Route::get('applications/jobseeker/', array('as'=>'allApplications','uses' => 'ApplicationController@index')); 
+Route::get('jobseeker/list', array('as'=>'allJobseeker','uses' => 'DiagrammController@index'));
+ 
 Route::get('applications/status/', array('as'=>'status','uses' => 'ApplicationController@createStatus')); 
 
 Route::get('createapps', array('as'=>'createApplication','uses' => 'ApplicationController@createApp')); 

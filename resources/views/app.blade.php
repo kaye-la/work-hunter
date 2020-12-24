@@ -30,7 +30,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				{!! Html::linkRoute('home', '3035553501', null, array('class'=>'navbar-brand')) !!}
+				<!-- {!! Html::linkRoute('home', '3035553501', null, array('class'=>'navbar-brand')) !!} -->
 			</div>
 
 			<!--
@@ -65,6 +65,7 @@
 						<li><a href="{{ route('getUsers') }}" style="font-size:20px">List all users</a></li>
 						<li><a href="{{ route('allVacancies') }}" style="font-size:20px">List all jobs</a></li>
 						<li><a href="{{ route('allApplications') }}" style="font-size:20px">List all applications</a></li>
+						<li><a href="{{ route('allJobseeker') }}" style="font-size:20px">Attendance jobseeker</a></li>
 						@endif
 					@endif
 				</ul>
@@ -94,7 +95,7 @@
 				<p class="pull-left small">(c)Work Hunter</p>
 			</div>
 			<div>
-				<p class="pull-right small">You can contact us anytime at +852 52409648 or email: denizanazarova@gmail.com</p>
+				<p class="pull-right small">You can contact us anytime at +7 (996)337-23-65 or email: faridun.deniza@gmail.com</p>
 			</div>
 		</div>
 	</div>

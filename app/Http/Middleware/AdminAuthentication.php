@@ -30,6 +30,6 @@ class AdminAuthentication
                 return $next($request); 
             } 
         } 
-        return \Redirect::route('home');
+        return \Redirect::route('getLogin');
     }
 }
